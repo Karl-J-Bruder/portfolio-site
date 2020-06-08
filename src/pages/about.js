@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Head from "../components/head";
-import karl2 from "../img/karl2.jpg";
+import karl from "../img/karl.jpg";
 import aboutStyles from "./about.module.scss";
 
 const AboutPage = () => {
@@ -12,7 +12,7 @@ const AboutPage = () => {
                 <Head title="About" />
                 <div className={aboutStyles.photoContainer}>
                     <h1>About Me</h1>
-                    <img src={karl2} alt="me in upstate new york" className={aboutStyles.aboutPhoto} />
+                    <img src={karl} alt="me in upstate new york" className={aboutStyles.aboutPhoto} />
                 </div>
                 <div className={aboutStyles.textContainer}>
                     <p>Born in 1987 in Florida. Currently, I live in Yokohama and commute into south Tokyo.</p>
