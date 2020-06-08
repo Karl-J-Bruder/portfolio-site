@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Head from "../components/head";
-import karl2 from "./images/karl2.jpg";
+import karl2 from "../img/karl2.JPG";
 import aboutStyles from "./about.module.scss";
 
 const AboutPage = () => {
