@@ -1,0 +1,27 @@
+.footer {
+    margin-top: 3rem;
+    padding-left: 2rem;
+}
+
+.social-container {
+    margin-bottom: .5rem;
+}
+
+.social-icon {
+    font-size: 30px;
+    margin: 0 .25rem;
+
+    a {
+        color: #203FC4
+        FontAwesomeIcon {
+            color: #203FC4
+        }
+        &:visited, &:active &:focus {
+            text-decoration: none;
+        }
+    }
+
+    &:hover {
+        color: #203FC4
+    }
+}

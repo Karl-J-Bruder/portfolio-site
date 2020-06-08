@@ -1,0 +1,40 @@
+.header {
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1rem;
+    z-index: 999;
+
+    @media screen and (max-width: 740px){
+        display: none;
+    }
+}
+
+.title {
+    color: #203FC4;
+    font-size: 3rem;
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-item {
+    color: #999999;
+    font-size: 1rem;
+    margin-right: 1rem;
+    text-decoration: none;
+
+
+    &:hover {
+        color: #666666;
+    }
+}
+
+.active-nav-item {
+    color: #203FC4;
+}

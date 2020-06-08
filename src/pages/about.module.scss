@@ -1,0 +1,34 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-container {
+    margin: 1.5rem auto;
+    text-align: center;
+}
+
+.about-photo {  
+    max-height: 500px;
+    max-width: 95vw;
+    min-height: 300px;
+    min-width: 300px;
+}
+
+.text-container {
+    
+    @media screen and (min-width: 740px) {
+        text-align: left;
+        padding-left: 25%;
+        width: 75%;   
+    }
+}
+
+.inline-link {
+    color: #203FC4;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

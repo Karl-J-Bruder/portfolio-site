@@ -1,0 +1,20 @@
+.home-intro {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-img {
+    border-radius: 50%;
+    height: 250px;
+    margin: 1rem auto 2rem auto;
+    width: 250px;
+}
+
+.inline-link {
+    color: #203FC4;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

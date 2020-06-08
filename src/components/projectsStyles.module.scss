@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    max-width: 85vw;
+
+    @media screen and (min-width: 760px) {
+        min-width: 95vw;
+        width: 100%;
+    }
+}
+
+.title {
+    border-bottom: 4px solid #203FC4;
+    font-size: 2rem;
+}

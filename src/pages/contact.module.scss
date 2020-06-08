@@ -1,0 +1,9 @@
+.wrapper {
+    padding: 7rem 0.5rem;
+
+    @media screen and (min-width: 740px) {
+        text-align: left;
+        padding-left: 15%;
+        width: 85%;   
+    }
+}

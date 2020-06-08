@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    min-height: 100vh;
+    
+    @media screen and (max-width: 740px) {
+        margin: 0 auto;
+    }
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.scroll-to-top {
+    background-color: #203FC4;
+    border: none;
+    border-radius: 5px;
+    bottom: 50px;
+    height: 50px;
+    opacity: 0.3;
+    position: fixed;
+    right: 10px;
+    width: 50px;
+    &:hover {
+        opacity: 1;
+    }
+    @media (max-width: 1024px) {
+        opacity: 1;
+    }
+}
+
+.arrow-up {
+    color: white;
+    font-size: 30px;
+    left: 25%;
+    position: absolute;
+    top: 20%;
+}
