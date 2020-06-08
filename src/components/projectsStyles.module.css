@@ -1,0 +1,27 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  max-width: 85vw;
+}
+
+@media screen and (min-width: 760px) {
+  .container {
+    min-width: 95vw;
+    width: 100%;
+  }
+}
+
+.title {
+  border-bottom: 4px solid #203FC4;
+  font-size: 2rem;
+}
+/*# sourceMappingURL=projectsStyles.module.css.map */

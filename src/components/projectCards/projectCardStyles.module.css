@@ -1,0 +1,158 @@
+.project-card {
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 1px 1px 1px darkgray;
+          box-shadow: 1px 1px 1px darkgray;
+  margin: 2rem auto;
+  max-width: 30vw;
+  min-width: 250px;
+}
+
+@media screen and (min-width: 760px) {
+  .project-card {
+    height: 250px;
+    min-width: 750px;
+  }
+}
+
+.card-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (min-width: 760px) {
+  .card-inner {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    padding: 0.5rem 0;
+    vertical-align: middle;
+  }
+}
+
+.image-container {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 760px) {
+  .image-container {
+    padding: 20px 5px 0 5px;
+  }
+}
+
+.card-image {
+  margin: 0;
+}
+
+.desc-container {
+  font-size: 1rem;
+  padding: 15px 0 0 5px;
+}
+
+@media screen and (min-width: 760px) {
+  .desc-container p {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 760px) {
+  .project-title {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+}
+
+.project-desc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.button-container {
+  font-size: 1.5rem;
+  margin: 0.5rem auto;
+  width: 90%;
+}
+
+@media screen and (min-width: 760px) {
+  .button-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 30%;
+  }
+}
+
+.github-button {
+  background: black;
+  border: none;
+  border-radius: 1000px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 760px) {
+  .github-button {
+    height: 40px;
+    width: 150px;
+  }
+}
+
+.live-site-button {
+  background: #203FC4;
+  border: none;
+  border-radius: 1000px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 0.5rem auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 760px) {
+  .live-site-button {
+    height: 40px;
+    width: 150px;
+  }
+}
+/*# sourceMappingURL=projectCardStyles.module.css.map */

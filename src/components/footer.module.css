@@ -1,0 +1,27 @@
+.footer {
+  margin-top: 3rem;
+  padding-left: 2rem;
+}
+
+.social-container {
+  margin-bottom: .5rem;
+}
+
+.social-icon {
+  font-size: 30px;
+  margin: 0 .25rem;
+}
+
+.social-icon a {
+  color: #203FC4 FontAwesomeIcon;
+  color-color: #203FC4;
+}
+
+.social-icon a:visited, .social-icon a:active .social-icon a:focus {
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #203FC4;
+}
+/*# sourceMappingURL=footer.module.css.map */
