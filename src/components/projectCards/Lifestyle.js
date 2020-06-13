@@ -3,13 +3,14 @@ import cardStyles from "./projectCardStyles.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faHandPointRight } from "@fortawesome/free-solid-svg-icons"
+import lifestyle from "../../img/lifestyle.png";
 
 const Lifestyle = () => {
     return (
         <div className={cardStyles.projectCard}>
             <div className={cardStyles.cardInner} id="projectCard1">
                 <div className={cardStyles.imageContainer}>
-                    <img className={cardStyles.cardImage} src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.photolakedistrict.co.uk%2Fwp-content%2Fuploads%2F2016%2F11%2Ffleetwith-pike-photographs.jpg&f=1&nofb=1" alt="ayyLMAO" />
+                    <img className={cardStyles.cardImage} src={lifestyle} />
                 </div>
                 <div className={cardStyles.descContainer}>
                     <p className={cardStyles.projectTitle}>Lifestyle App</p>
@@ -22,8 +23,8 @@ const Lifestyle = () => {
                     </ul>
                 </div>
                 <div className={cardStyles.buttonContainer}>
-                    <button className={cardStyles.githubButton}>GitHub <FontAwesomeIcon icon={faGithub} /></button>
-                    <button className={cardStyles.liveSiteButton}>Live Site <FontAwesomeIcon icon={faHandPointRight} /></button>
+                    <a href="https://github.com/Karl-J-Bruder/lifestyle-app" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}><button className={cardStyles.githubButton}>GitHub <FontAwesomeIcon icon={faGithub} /></button></a>
+                    <a href="https://festive-kirch-120553.netlify.app/" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}><button className={cardStyles.liveSiteButton}>Live Site <FontAwesomeIcon icon={faHandPointRight} /></button></a>
                 </div>
             </div>
         </div>

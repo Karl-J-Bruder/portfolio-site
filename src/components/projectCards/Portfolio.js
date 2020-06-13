@@ -22,8 +22,8 @@ const PortfolioSite = () => {
                     </ul>
                 </div>
                 <div className={cardStyles.buttonContainer}>
-                    <button className={cardStyles.githubButton}>GitHub <FontAwesomeIcon icon={faGithub} /></button>
-                    <button className={cardStyles.liveSiteButton}>Live Site <FontAwesomeIcon icon={faHandPointRight} /></button>
+                    <a href="https://github.com/Karl-J-Bruder/portfolio-site" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}><button className={cardStyles.githubButton}>GitHub <FontAwesomeIcon icon={faGithub} /></button></a>
+                    <a href="https://competent-archimedes-9e7dca.netlify.app/" target="_blank" rel="noreferrer" style={{ textDecoration: "none" }}><button className={cardStyles.liveSiteButton}>Live Site <FontAwesomeIcon icon={faHandPointRight} /></button></a>
                 </div>
             </div>
         </div>
