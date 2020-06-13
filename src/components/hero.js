@@ -13,6 +13,8 @@ const Hero = () => {
                 </div>
                 <div className={heroStyles.heroInnerSub}>
                     <h2>American-born, Japan-based front-end developer.</h2>
+                    <h3>React JS / CSS / JavaScript</h3>
+                    <h3>Professionally fluent in Japanese</h3>
                 </div>
                 <div className={heroStyles.socialIconContainer}>
                     <a href="mailto:karl.j.bruder@gmail.com"><FontAwesomeIcon icon={faGoogle} className={heroStyles.socialIcon} /></a>
