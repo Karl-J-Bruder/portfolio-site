@@ -19,9 +19,9 @@ const Footer = () => {
     return (
         <footer className={footerStyles.footer}>
             <div className={footerStyles.socialContainer}>
-                <a href="mailto:karl.j.bruder@gmail.com"><FontAwesomeIcon icon={faGoogle} className={footerStyles.socialIcon} /></a>
-                <a href="https://github.com/Karl-J-Bruder" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={footerStyles.socialIcon} /></a>
-                <a href="https://www.linkedin.com/in/karl-bruder-a0b1a11a9/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} className={footerStyles.socialIcon} /></a>
+                <a href="mailto:karl.j.bruder@gmail.com"><FontAwesomeIcon icon={faGoogle} size="1x" color="#203FC4" className={footerStyles.socialIcon} /></a>
+                <a href="https://github.com/Karl-J-Bruder" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} size="1x" color="#203FC4" className={footerStyles.socialIcon} /></a>
+                <a href="https://www.linkedin.com/in/karl-bruder-a0b1a11a9/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedin} size="1x" color="#203FC4" className={footerStyles.socialIcon} /></a>
             </div>
             <p>Created by {data.site.siteMetadata.author} (c) 2020</p>
             <p>Homepage Photo by <a href="https://unsplash.com/@roberto_j_saldana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">
